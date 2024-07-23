@@ -1,5 +1,6 @@
 <?php
 session_start();
+<<<<<<< HEAD
 include "./model/pdo.php";
 include "./global.php";
 include "./model/danhmuc.php";
@@ -12,6 +13,9 @@ $spnew =  loadall_sanpham_home();
 $sp =  loadall_sanpham_sanpham();
 $dsdm = load_all_categories();
 
+=======
+include "view/client/header.php";
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 if((isset($_GET['act']))&&($_GET['act']!="")){
     $act=$_GET['act'];
     switch ($act) {  
@@ -40,6 +44,7 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
         break;
 
         case 'ctsanpham':
+<<<<<<< HEAD
             if (isset($_GET['idsp']) && ($_GET['idsp'] > 0)) {
                 $product_id = $_GET['idsp'];
                 $onesp = load_sanpham_by_id($product_id);
@@ -52,6 +57,11 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
         
         
         
+=======
+            include "view/client/product-detail.php";
+        break;
+        
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
         case 'gioithieu':
             include "view/client/about.php";
             break;
@@ -65,6 +75,7 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
             break;
             
         case 'sanpham':
+<<<<<<< HEAD
             if (isset($_GET['idsp']) && ($_GET['idsp'] > 0)) {
                 $product_id = $_GET['idsp'];
                 
@@ -75,6 +86,9 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
                 include "view/client/shop-grid.php";
             }
             
+=======
+            include "view/client/shop-grid.php";
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             break;
             
         case 'hoadon':
@@ -82,11 +96,15 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
             break;
 
         case 'dangnhap':
+<<<<<<< HEAD
             
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             include "view/client/login.php";
             break;
 
         case 'dangky':
+<<<<<<< HEAD
             if (isset($_POST['dangky']) && ($_POST['dangky'])) {
                 $name = $_POST['name'];
                 $email = $_POST['email'];
@@ -95,6 +113,8 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
                 add_taikhoan($name, $email, $pass);
                 $dktkthanhcong = "Đăng ký tài khoản mới thành công";
             }
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             include "view/client//register.php";
             break;
             

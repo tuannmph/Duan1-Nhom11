@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+<<<<<<< HEAD
     <style>
     .card-bodyy {
         display: flex;
@@ -14,6 +15,8 @@
 
     }
     </style>
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
     google.charts.load("current", {
@@ -26,6 +29,7 @@
 
         var data = google.visualization.arrayToDataTable([
             ['Loại sản phẩm', 'Số lượng'],
+<<<<<<< HEAD
             <?php
                 foreach ($data as $key) {
                     echo "['" . $key['cate_name'] . "' , " . $key['number_cate'] . "],";
@@ -35,6 +39,18 @@
 
         var options = {
             // title: 'Biểu đồ số lượng sản phẩm theo danh mục',
+=======
+
+            <?php
+            foreach ($data as $key) {
+                echo "['" . $key['cate_name'] . "' , " . $key['number_cate'] . "],";
+            }
+            ?>
+        ]);
+
+        var options = {
+            title: 'Biểu đồ số lượng sản phẩm theo danh mục',
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             is3D: true,
         };
 
@@ -66,7 +82,10 @@
                     <div class="card bg-warning text-white mb-4">
                         <div class="card-body">Thẻ cảnh báo</div>
                         <div class="card-footer d-flex align-items-center justify-content-between">
+<<<<<<< HEAD
 
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             <a class="small text-white stretched-link" href="#">Xem chi tiết</a>
                             <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                         </div>
@@ -93,6 +112,7 @@
             </div>
 
             <div class="row">
+<<<<<<< HEAD
                 <div class="col-xl-12">
                     <div class="card mb-4">
                         <div class="card-header">
@@ -102,11 +122,35 @@
                         <div class="card-bodyy">
                             <div id="piechart_3d" style="width: 100%; height: 100%;"></div>
                         </div>
+=======
+                <div class="col-xl-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-area me-1"></i>
+                            Biểu đồ diện tích
+                        </div>
+                        <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-bar me-1"></i>
+                            Biểu đồ cột
+                        </div>
+                        <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                     </div>
                 </div>
             </div>
 
         </div>
+<<<<<<< HEAD
+=======
+
+        <div id="piechart_3d" style="width: 900px; height: 500px; margin: auto;"></div>
+
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
     </main>
 </body>
 

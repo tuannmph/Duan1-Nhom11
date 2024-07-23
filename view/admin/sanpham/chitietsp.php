@@ -178,7 +178,10 @@
                             <th>Stt</th>
                             <th>Người Nội dung</th>
                             <th>Nội dung</th>
+<<<<<<< HEAD
                             <th>Ngày bình luận</th>
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                         </tr>
                     </thead>
                     <tbody>
@@ -187,7 +190,10 @@
                             <td><?= $bl['id'] ?></td>
                             <td><?= $bl['user_name'] ?></td>
                             <td><?= $bl['noidung'] ?></td>
+<<<<<<< HEAD
                             <td><?= $bl['ngaybinhluan'] ?></td>
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                         </tr>
                         <?php endforeach; ?>
                     </tbody>

@@ -14,7 +14,13 @@
         margin-bottom: 30px;
     }
 
+<<<<<<< HEAD
 
+=======
+    /* .anhsp {
+        width: 1000px;
+    } */
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 
     img {
         max-height: 150px;

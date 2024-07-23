@@ -61,7 +61,11 @@
                                    <li class="navbar-item account-menu">
                                        <a href="index.php?act=yeuthich"
                                            class="navbar-link text-slate-400 flex items-center py-2 rounded">
+<<<<<<< HEAD
                                            <span class="me-2 mb-0"><i data-feather="heart" class="size-4"></i></span>
+=======
+                                           <span class="me-2 mb-0"><i data-feather="share-2" class="size-4"></i></span>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                                            <h6 class="mb-0 font-medium">Sản phẩm yêu thích</h6>
                                        </a>
                                    </li>

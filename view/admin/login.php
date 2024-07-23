@@ -15,7 +15,11 @@ if ((isset($_POST['dangnhap'])) && ($_POST['dangnhap'])) {
         extract($user);
         if ($role == 1) {
             $_SESSION['s_user'] = $user;
+<<<<<<< HEAD
             header('location: index.php?act=thongke'); 
+=======
+            header('location: index.php'); 
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             
         } else {
             $tb="Tài khoản không tồn tại";

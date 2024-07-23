@@ -2178,7 +2178,11 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif;
+=======
+  font-family: "DM Sans", sans-serif;
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
   line-height: 1.5;
 }
 ::-moz-selection {

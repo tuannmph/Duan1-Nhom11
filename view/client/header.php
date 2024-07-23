@@ -15,16 +15,23 @@
     <meta name="email" content="support@shreethemes.in" />
     <meta name="version" content="1.0.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<<<<<<< HEAD
     <!-- icon gg -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/images/category_id-3-Photoroom.png" />
+=======
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 
     <!-- Css -->
     <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
     <link href="assets/libs/swiper/css/swiper.min.css" rel="stylesheet" />
     <!-- Main Css -->
+<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css" />
@@ -100,6 +107,10 @@
     }
     </style>
 
+=======
+    <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css" />
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 </head>
 
 <body class="dark:bg-slate-900">
@@ -121,7 +132,11 @@
             <div class="grid grid-cols-1">
                 <div class="text-center">
                     <h6 class="text-white font-medium">
+<<<<<<< HEAD
                         Ưu đãi lên tới 50% 🎉
+=======
+                        Refer a friend & get $50 in credits each 🎉
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                     </h6>
                 </div>
             </div>
@@ -138,10 +153,15 @@
             <!-- Logo container-->
             <a class="logo" href="index.php?act=home">
                 <div>
+<<<<<<< HEAD
                     <img src="assets/images/category_id-Photoroom.png" class="h-[30px] inline-block dark:hidden"
                         alt="" />
                     <img src="assets/images/category_id-3-Photoroom.png" class="h-[30px] hidden dark:inline-block"
                         alt="" />
+=======
+                    <img src="assets/images/logo-dark.png" class="h-[22px] inline-block dark:hidden" alt="" />
+                    <img src="assets/images/logo-white.png" class="h-[22px] hidden dark:inline-block" alt="" />
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                 </div>
             </a>
             <!-- End Logo container-->
@@ -199,6 +219,7 @@
                 </li>
 
                 <li class="dropdown inline-block relative ps-0.5">
+<<<<<<< HEAD
 
                     <button data-dropdown-toggle="dropdown" class="dropdown-toggle items-center" type="button">
                         <a href="index.php?act=dangnhap">
@@ -210,11 +231,21 @@
                         </a>
                     </button>
 
+=======
+                    <a href="index.php?act=lichsu">
+                        <button data-dropdown-toggle="dropdown" class="dropdown-toggle items-center" type="button">
+                            <span
+                                class="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-orange-500 bg-orange-500 text-white"><img
+                                    src="assets/images/client/16.jpg" class="rounded-full" alt="" /></span>
+                        </button>
+                    </a>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                     <!-- Dropdown menu -->
                     <!-- <div class="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 hidden"
                         onclick="event.stopPropagation();">
                         <ul class="py-2 text-start">
                             <li>
+<<<<<<< HEAD
                                 <p class="text-slate-400 pt-2 px-4">Xin chào</p>
                             </li>
 
@@ -222,27 +253,52 @@
                                 <a href="user-account.html"
                                     class="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange-500 dark:hover:text-white"><i
                                         data-feather="dollar-sign" class="h-4 w-4 me-2"></i></i> Lịch sử mua</a>
+=======
+                                <p class="text-slate-400 pt-2 px-4">Welcome Jesus!</p>
+                            </li>
+                            <li>
+                                <p class="flex items-center font-medium py-2 px-4">
+                                    <i data-feather="dollar-sign" class="h-4 w-4 me-2"></i>
+                                    Balance: <span class="text-orange-500 ms-2">$ 245.10</span>
+                                </p>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             </li>
                             <li>
                                 <a href="user-account.html"
                                     class="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange-500 dark:hover:text-white"><i
+<<<<<<< HEAD
                                         data-feather="user" class="h-4 w-4 me-2"></i>Tài khoản</a>
+=======
+                                        data-feather="user" class="h-4 w-4 me-2"></i>Account</a>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             </li>
                             <li>
                                 <a href="helpcenter.html"
                                     class="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange-500 dark:hover:text-white"><i
+<<<<<<< HEAD
                                         data-feather="help-circle" class="h-4 w-4 me-2"></i>Yêu thích</a>
+=======
+                                        data-feather="help-circle" class="h-4 w-4 me-2"></i>Helpcenter</a>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             </li>
                             <li>
                                 <a href="user-setting.html"
                                     class="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange-500 dark:hover:text-white"><i
+<<<<<<< HEAD
                                         data-feather="settings" class="h-4 w-4 me-2"></i>Cài đặt</a>
+=======
+                                        data-feather="settings" class="h-4 w-4 me-2"></i>Settings</a>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             </li>
                             <li class="border-t border-gray-100 dark:border-gray-800 my-2"></li>
                             <li>
                                 <a href="login.html"
                                     class="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange-500 dark:hover:text-white"><i
+<<<<<<< HEAD
                                         data-feather="log-out" class="h-4 w-4 me-2"></i>Đăng xuất</a>
+=======
+                                        data-feather="log-out" class="h-4 w-4 me-2"></i>Logout</a>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                             </li>
                         </ul>
                     </div> -->
@@ -263,6 +319,7 @@
                         <a href="index.php?act=sanpham">Sản phẩm</a><span class="menu-arrow"></span>
 
                         <ul class="submenu megamenu">
+<<<<<<< HEAD
                             <?php
                             $dsdm = load_all_categories();
                             foreach ($dsdm as $dm){
@@ -278,28 +335,150 @@
                             <!-- <li>
                                 <ul>
                                     <li class="megamenu-head"><a href="#!" class="sub-menu-item">Nike</a></li>
+=======
+                            <li>
+                                <ul>
+                                    <li class="megamenu-head">Nike</li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Bundle - Upsell</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Hot Stock</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Sticky Add To Cart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Notify Me (Out Of Stock)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Ask An Expert</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Variant Image Grouped</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Wishlist</a></li>
+                                    <li><a href="#!" class="sub-menu-item">Trust Badge</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Delivery Information</a>
+                                    </li>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                                 </ul>
                             </li>
 
                             <li>
                                 <ul>
+<<<<<<< HEAD
                                     <li class="megamenu-head"><a href="#!" class="sub-menu-item">Nike</a></li>
+=======
+                                    <li class="megamenu-head">Converse</li>
+                                    <li><a href="#!" class="sub-menu-item">Sold In Last</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Color Comparison</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Swatches</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Select Options</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Pre-Order</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product 3D, AR Models</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Terms And Conditions Checkbox</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Variant Metafield Description</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Variant Metafield Property</a>
+                                    </li>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                                 </ul>
                             </li>
 
                             <li>
                                 <ul>
+<<<<<<< HEAD
                                     <li class="megamenu-head"><a href="#!" class="sub-menu-item">Nike</a></li>
+=======
+                                    <li class="megamenu-head">Adidas</li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Video</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Size Chart</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Dynamic Checkout</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Countdown</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Custom Content</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Custom Options</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Combo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Product Complementary</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Auto Discount</a>
+                                    </li>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                                 </ul>
                             </li>
 
                             <li>
                                 <ul>
+<<<<<<< HEAD
                                     <li class="megamenu-head"><a href="#!" class="sub-menu-item">Nike</a></li>
                                 </ul>
                             </li> -->
 
                             <img src="./img/nike3.jpg" alt="">
+=======
+                                    <li class="megamenu-head">Jordan</li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Custom Product Tabs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Vertical Product Tab</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Horizontal Product Tab</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Social Share</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Related Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Recently Viewed Products</a>
+                                    </li>
+                                    <li><a href="#!" class="sub-menu-item">Custom Label</a></li>
+                                    <li>
+                                        <a href="#!" class="sub-menu-item">Local Pick Up</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <ul>
+                                    <li class="megamenu-head">
+                                        <img src="assets/images/cta.png" alt="" />
+                                    </li>
+
+                                    <li class="text-center">
+                                        <a href="#!"
+                                            class="py-2 px-5 inline-block font-medium tracking-wide align-middle duration-500 text-base text-center bg-orange-500/10 text-orange-500 rounded-md me-2 mt-2"><i
+                                                class="mdi mdi-cart-outline"></i> Shop Now</a>
+                                    </li>
+                                </ul>
+                            </li>
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                         </ul>
                     </li>
 

@@ -6,12 +6,21 @@
                  <div class="py-[60px] px-0">
                      <div class="grid md:grid-cols-12 grid-cols-1 gap-6">
                          <div class="lg:col-span-3 md:col-span-12">
+<<<<<<< HEAD
                              <a href="#" class="text-[30px] focus:outline-none">
                                  <img src="assets/images/category_id-3-Photoroom.png" alt="" style="width: 100px;" />
                              </a>
                              <p class="mt-6 text-gray-300">
                                  Nâng cấp phong cách của bạn với các bộ tuyển chọn của chúng tôi. Hãy tự tin lựa chọn,
                                  đón nhận vẻ ngoài độc đáo của bạn.
+=======
+                             <a href="#" class="text-[22px] focus:outline-none">
+                                 <img src="assets/images/logo-light.png" alt="" />
+                             </a>
+                             <p class="mt-6 text-gray-300">
+                                 Upgrade your style with our curated sets. Choose confidence,
+                                 embrace your unique look.
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                              </p>
                              <ul class="list-none mt-6">
                                  <li class="inline">
@@ -359,11 +368,14 @@ function slideImage() {
 
 window.addEventListener('resize', slideImage);
  </script>
+<<<<<<< HEAD
 
  <script>
 feather.replace()
  </script>
 
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
  </body>
 
  <!-- Mirrored from shreethemes.in/cartzio/layouts/index-fashion-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jul 2024 16:46:24 GMT -->

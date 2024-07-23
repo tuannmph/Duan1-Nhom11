@@ -3,26 +3,45 @@ function checkuser($email, $password)
 {
     try {
         $sql = "SELECT * FROM tb_user WHERE email = ? AND password = ?";
+<<<<<<< HEAD
         $params = [$email, $password]; 
 
         $user = pdo_query_one($sql, ...$params);
 
         return $user; 
+=======
+        $params = [$email, $password]; // Đưa các tham số vào một mảng để truyền vào hàm pdo_query_one
+
+        $user = pdo_query_one($sql, ...$params);
+
+        return $user; // Trả về mảng dữ liệu người dùng nếu tìm thấy, hoặc null nếu không tìm thấy
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
     } catch (PDOException $e) {
         throw $e;
     }
 }
 
+<<<<<<< HEAD
 function add_taikhoan($name, $email, $pass) {
     try {
         $sql = "INSERT INTO tb_user (user_name,email, password) VALUES (:name, :email, :pass)";
+=======
+function add_taikhoan($name, $email, $pass, $phone, $addr) {
+    try {
+        $sql = "INSERT INTO tb_user (user_name,email, password, phone, address) VALUES (:name, :email, :pass, :phone, :addr)";
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
         
         $args = [
             'name' => $name,
             'email' => $email,
             'pass' => $pass,
+<<<<<<< HEAD
             // 'phone' => $phone,
             // 'addr' => $addr,
+=======
+            'phone' => $phone,
+            'addr' => $addr,
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             
         ];
         

@@ -9,7 +9,10 @@ include "../../model/size.php";
 include "../../model/taikhoan.php";
 include "../../model/binhluan.php";
 include "../../model/thongke.php";
+<<<<<<< HEAD
 include "../../global.php";
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 
 
 if (!isset($_SESSION['s_user']) || !is_array($_SESSION['s_user']) || $_SESSION['s_user']['role'] != 1) {
@@ -23,7 +26,11 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
     switch ($act) {
         //thống kê
         case 'thongke':
+<<<<<<< HEAD
             // require_once 'thongke.php';
+=======
+            require_once 'thongke.php';
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             $data = get_product_count_by_category();
             include "thongke.php";
             break;

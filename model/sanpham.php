@@ -74,14 +74,23 @@ function update_sanpham($id, $iddm, $name, $price, $des, $hinh, $size, $quantity
 
 
 function load_sanpham_by_id($product_id) {
+<<<<<<< HEAD
     $sql = "SELECT p.product_id, p.product_name, p.price, p.image, p.description, p.category_id, c.category_name, s.size_name, p.quantity
             FROM tb_product p
             INNER JOIN tb_category c ON p.category_id = c.category_id
             LEFT JOIN tb_size s ON p.size_id = s.size_id
+=======
+    $sql = "SELECT p.product_id, p.product_name, p.price, p.image, p.description, c.category_name, s.size_name, p.quantity
+            FROM tb_product p
+            INNER JOIN tb_category c ON p.category_id = c.category_id
+            LEFT JOIN tb_product ps ON p.product_id = ps.product_id
+            LEFT JOIN tb_size s ON ps.size_id = s.size_id
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
             WHERE p.product_id = :product_id";
     $conn = pdo_get_connection(); 
     $stmt = $conn->prepare($sql);
     $stmt->execute([':product_id' => $product_id]);
+<<<<<<< HEAD
     return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
@@ -98,10 +107,23 @@ function loadall_sanpham_home(){
 
     $listsanpham = pdo_query($sql);
     return $listsanpham;
+=======
+    $product = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    // Lấy danh sách các size của sản phẩm
+    $sizes = [];
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $sizes[] = $row;
+    }
+
+    $product['sizes'] = $sizes;
+    return $product;
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 }
 
 
 
+<<<<<<< HEAD
 function load_sanpham_cungloai($product_id) {
     $current_product = load_sanpham_by_id($product_id);
     $category_id = $current_product['category_id'];
@@ -129,6 +151,12 @@ function loadall_sanpham_sanpham(){
     $listsanpham = pdo_query($sql);
     return $listsanpham;
 }
+=======
+
+
+
+
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
 
 
 

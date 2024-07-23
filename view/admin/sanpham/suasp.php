@@ -26,12 +26,15 @@
     .form-add {
         margin: 10px 0px;
     }
+<<<<<<< HEAD
 
     a {
         text-decoration: none;
         font-size: 20px;
         margin-left: 10px;
     }
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
     </style>
 </head>
 
@@ -63,7 +66,10 @@
             ?>
         </h2>
         <h1>Sửa sản phẩm</h1>
+<<<<<<< HEAD
         <a href="index.php?act=danhsachsp"> ← Quay lại</a>
+=======
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
         <hr>
         <form action="index.php?act=updatesp" method="post" enctype="multipart/form-data">
             <div class="form-add">
@@ -109,11 +115,17 @@
                     <option selected disabled>Chọn danh mục sản phẩm</option>
                     <?php
                     $categories = load_all_categories();
+<<<<<<< HEAD
                     $product = load_sanpham_by_id($product_id);
                     $iddm = $product['category_id'];
                     foreach ($categories as $category) {
                         $selected = ($iddm == $category['category_id']) ? "selected" : "";
                         echo '<option value="' . $category['category_id'] . '" ' . $selected . '>' . $category['category_name'] . '</option>';
+=======
+                    foreach ($categories as $category) {
+                        $selected = ($iddm == $category['category_id']) ? "selected" : "";
+                        echo '<option value="' . $category['category_id'] . '" '.$selected.'>' . $category['category_name'] . '</option>';
+>>>>>>> c05b7d31d4768536ed2f2998e34a9853991223a9
                     }
                     ?>
                 </select>
